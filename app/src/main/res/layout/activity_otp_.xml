@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="22dp"
+    android:layout_marginTop="28dp"
+    android:layout_marginEnd="22dp"
+    android:layout_marginBottom="28dp"
+    android:background="@drawable/background"
+    tools:context=".PhoneAuth.Otp_Activity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="190.1dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="312dp"
+        android:layout_height="0dp"
+        android:background="@drawable/gradient"
+        android:text="@string/Verify"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="216dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/ic_otp_img" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="38dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/OTP_Verification"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_horizontal"
+            android:lineHeight="24sp"
+            android:lineSpacingExtra="8sp"
+            android:text="@string/Enter_the_OTP_sent_to"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:gravity="center_horizontal"
+            android:lineHeight="24sp"
+            android:lineSpacingExtra="8sp"
+            android:text="+91 9999999999"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+   <!-- <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center_horizontal"
+        android:lineHeight="24sp"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/Enter_the_OTP_sent_to"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_semibold"
+        android:gravity="center_horizontal"
+        android:lineHeight="24sp"
+        android:lineSpacingExtra="8sp"
+        android:text="+919999999999"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+        -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+
+         <com.bigbangbutton.editcodeview.EditCodeView
+            android:id="@+id/editTextCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf_pro_text_regular"
+            android:gravity="center"
+            android:hint="@string/code"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+            android:textColor="@color/black"
+            app:codeLength="6"
+            app:underlineFilledColor="#32cd32"
+            app:textSize="24sp"
+            app:underlineReductionScale="0.3"
+            app:underlineStroke="1dp">
+
+            <requestFocus />
+        </com.bigbangbutton.editcodeview.EditCodeView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/resend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Resend_OTP"
+            android:textColor="#32cd32"
+            android:lineHeight="24sp"
+            android:fontFamily="@font/rounded_mplus1c_regular"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:paddingStart="5dp"
+            android:textColor="#32cd32"
+            android:lineHeight="24sp"
+            android:layout_height="wrap_content"
+            android:text="00:30"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="21dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+
+    <!-- <Button
+         android:id="@+id/button6"
+         style="@style/TextStyle5"
+         android:layout_width="137dp"
+         android:layout_height="40dp"
+         android:layout_marginBottom="26dp"
+         android:background="@drawable/gradient"
+         android:gravity="center_vertical"
+         android:text="@string/Resend_OTP"
+         android:textAlignment="center"
+         android:textAllCaps="false"
+         app:layout_constraintBottom_toTopOf="@+id/buttonSignIn"
+         app:layout_constraintStart_toStartOf="@+id/buttonSignIn" />
+
+     <Button
+         android:id="@+id/button7"
+         style="@style/TextStyle5"
+         android:layout_width="137dp"
+         android:layout_height="40dp"
+         android:background="@drawable/gradient"
+         android:gravity="center_vertical"
+         android:text="@string/Edit_Number"
+         android:textAlignment="center"
+         android:textAllCaps="false"
+         app:layout_constraintBottom_toBottomOf="@+id/button6"
+         app:layout_constraintEnd_toEndOf="@+id/buttonSignIn" />
+
+         -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

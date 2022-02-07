@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "10192493707",
+    "firebase_url": "https://farmigo-app.firebaseio.com",
+    "project_id": "farmigo-app",
+    "storage_bucket": "farmigo-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10192493707:android:4ba420c6334fe25ac0088e",
+        "android_client_info": {
+          "package_name": "com.farmigo.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10192493707-0o1k9bmd9dru3behp61clacp6q8a3c9k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.farmigo.app",
+            "certificate_hash": "676ebbad41df872ce45dd56b09b4d783c29e1cef"
+          }
+        },
+        {
+          "client_id": "10192493707-1ed4if4npv3ekeca3cmo9h7rrfkl0c2m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.farmigo.app",
+            "certificate_hash": "8d188fbf06579c3880adc15e0784dbb2e040d36d"
+          }
+        },
+        {
+          "client_id": "10192493707-s77epb9n6a0uibdcupfuktnfnvqej4rk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.farmigo.app",
+            "certificate_hash": "c881ea449ac4732f3becc7f8cf0d1d4fd01bb53b"
+          }
+        },
+        {
+          "client_id": "10192493707-5nspg29rm3826hsvn2m12fvsnabkn0h4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbBe2byu4DR7oOjq7IJTSN0b4xzGbj3kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10192493707-5nspg29rm3826hsvn2m12fvsnabkn0h4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

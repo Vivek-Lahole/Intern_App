@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MandiViewActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:elevation="4dp"
+        android:theme="@style/ToolbarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/muli_regular"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:letterSpacing="0.03"
+            android:gravity="center_horizontal"
+            tools:text="Khadki" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/addmandi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/addtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/muli_semibold"
+                    android:letterSpacing="0.03"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:text="@string/add"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:id="@+id/bookmark1"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_bookmark_border_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/bookmark2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_bookmark_black_24dp"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/directions"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_google_maps" />
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/search_box"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <EditText
+                android:id="@+id/search_mandi"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/search_box"
+                android:drawableStart="@drawable/ic_search_black_24dp"
+                android:fontFamily="@font/sfpro_text_medium"
+                android:gravity="start"
+                android:hint="@string/search_crop"
+                android:textColor="#909090"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <!-- <com.nex3z.togglebuttongroup.MultiSelectToggleGroup
+            android:id="@+id/group_dummy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:tbgChildSpacing="auto"
+            app:tbgChildSpacingForLastRow="align"
+            app:tbgFlow="true"
+            app:tbgRowSpacing="8dp"
+            tools:layout_editor_absoluteX="16dp">
+
+
+            <com.nex3z.togglebuttongroup.button.CircularToggle
+                android:id="@+id/Fruits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli_regular"
+                android:textStyle="normal"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:text="Fruits"/>
+
+            <com.nex3z.togglebuttongroup.button.CircularToggle
+                android:id="@+id/Vegitables"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli_regular"
+                android:textStyle="normal"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:text="Vegitables" />
+
+            <com.nex3z.togglebuttongroup.button.CircularToggle
+                android:id="@+id/Cerels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli_regular"
+                android:textStyle="normal"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:text="Cerels"/>
+
+            <com.nex3z.togglebuttongroup.button.CircularToggle
+                android:id="@+id/Flowers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli_regular"
+                android:textStyle="normal"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:text="Flowers" />
+
+            <com.nex3z.togglebuttongroup.button.CircularToggle
+                android:id="@+id/mics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli_regular"
+                android:textStyle="normal"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:text="mics"/>
+
+            <com.nex3z.togglebuttongroup.button.CircularToggle
+                android:id="@+id/Spices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mulish"
+                android:textStyle="normal"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:text="Spices" />
+
+            <com.nex3z.togglebuttongroup.button.CircularToggle
+                android:id="@+id/Oilseeds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mulish"
+                android:textStyle="normal"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:text="Oilseeds" />
+
+        </com.nex3z.togglebuttongroup.MultiSelectToggleGroup>
+
+        -->
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup
+            android:id="@+id/tags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            app:flexWrap="wrap"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:toggle_requiredAmount="0"
+            app:toggle_selectableAmount="7">
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                android:id="@+id/Fruits"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="3dp"
+                app:toggle_backgroundColor="@color/white"
+                app:toggle_borderColor="#c4c4c4"
+                app:toggle_borderWidth="1dp"
+                app:toggle_btnCornerRadius="5dp"
+                app:toggle_selectedBackgroundColor="#909090"
+                app:toggle_selectedBorderWidth="0dp"
+                app:toggle_text="@string/fruits"
+                app:toggle_textColor="@color/black" />
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                android:id="@+id/Vegetables"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="3dp"
+                app:toggle_backgroundColor="@color/white"
+                app:toggle_borderColor="#c4c4c4"
+                app:toggle_borderWidth="1dp"
+                app:toggle_btnCornerRadius="5dp"
+                app:toggle_selectedBackgroundColor="#909090"
+                app:toggle_selectedBorderWidth="0dp"
+                app:toggle_text="@string/Vegetables"
+                app:toggle_textColor="@color/black" />
+
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                android:id="@+id/Cereals"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="3dp"
+                app:toggle_backgroundColor="@color/white"
+                app:toggle_borderColor="#c4c4c4"
+                app:toggle_borderWidth="1dp"
+                app:toggle_btnCornerRadius="5dp"
+                app:toggle_selectedBackgroundColor="#909090"
+                app:toggle_selectedBorderWidth="0dp"
+                app:toggle_text="@string/Cereals"
+                app:toggle_textColor="@color/black" />
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                android:id="@+id/Pulses"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="3dp"
+                app:toggle_backgroundColor="@color/white"
+                app:toggle_borderColor="#c4c4c4"
+                app:toggle_borderWidth="1dp"
+                app:toggle_btnCornerRadius="5dp"
+                app:toggle_selectedBackgroundColor="#909090"
+                app:toggle_selectedBorderWidth="0dp"
+                app:toggle_text="@string/Pulses"
+                app:toggle_textColor="@color/black" />
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                android:id="@+id/Other"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="3dp"
+                app:toggle_backgroundColor="@color/white"
+                app:toggle_borderColor="#c4c4c4"
+                app:toggle_borderWidth="1dp"
+                app:toggle_btnCornerRadius="5dp"
+                app:toggle_selectedBackgroundColor="#909090"
+                app:toggle_selectedBorderWidth="0dp"
+                app:toggle_text="@string/Other"
+                app:toggle_textColor="@color/black" />
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                android:id="@+id/Spices"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="3dp"
+                app:toggle_backgroundColor="@color/white"
+                app:toggle_borderColor="#c4c4c4"
+                app:toggle_borderWidth="1dp"
+                app:toggle_btnCornerRadius="5dp"
+                app:toggle_selectedBackgroundColor="#909090"
+                app:toggle_selectedBorderWidth="0dp"
+                app:toggle_text="@string/Spices"
+                app:toggle_textColor="@color/black" />
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                android:id="@+id/OilSeeds"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="3dp"
+                app:toggle_backgroundColor="@color/white"
+                app:toggle_borderColor="#c4c4c4"
+                app:toggle_borderWidth="1dp"
+                app:toggle_btnCornerRadius="5dp"
+                app:toggle_selectedBackgroundColor="#909090"
+                app:toggle_selectedBorderWidth="0dp"
+                app:toggle_text="@string/OilSeeds"
+                app:toggle_textColor="@color/black" />
+
+            <!-- ... -->
+
+        </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyler"
+            android:layout_width="0dp"
+            android:background="@color/white"
+            android:layout_height="0dp"
+            android:layout_marginTop="14dp"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tags" />
+
+        <ImageView
+            android:id="@+id/imageButton2"
+            android:layout_width="0dp"
+            android:layout_height="27dp"
+            android:paddingStart="-10dp"
+            android:paddingEnd="-10dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView49"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView49"
+            app:srcCompat="@drawable/ic_whatsapp" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/muli_bold"
+            android:letterSpacing="0.03"
+            android:text="@string/share"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/tags"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

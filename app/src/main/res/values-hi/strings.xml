@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">FarmiGO</string>
+    <string name="Sign_in">साइन इन करें</string>
+    <string name="Verify">सत्यापित करें</string>
+    <string name="Mobile_Number">मोबाइल नंबर</string>
+    <string name="Get_OTP">OTP प्राप्त करें</string>
+    <string name="OTP_Sent">OTP भेजा गया</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="OTP_Verification">OTP सत्यापन</string>
+    <string name="Enter_the_OTP_sent_to">OTP को भेजा गया</string>
+    <string name="Resend_OTP">ओटीपी पुनः भेजें</string>
+    <string name="Edit_Number">नंबर संपादित करें</string>
+    <string name="Please_Enter_OTP">कृपया OTP दर्ज करें</string>
+    <string name="Welcome">स्वागत हे</string>
+    <string name="Valid_number_is_required">वैध फोन नंबर आवश्यक है</string>
+    <string name="title_location_permission">Use location? </string>
+    <string name="text_location_permission">Allow location to fetch nearest APMc markets</string>
+    <string name="OPEN_WEATHER_MAP_API_KEY">1cb26593a6f3b38848ab0a55f39a4f98</string>
+
+    <string name="negative_sign">-</string>
+    <string name="positive_sign">+</string>
+
+    <!--do not below translate lines-->
+    <string name="choose_your_language">Choose Your Language</string>
+    <string name="english">English</string>
+    <string name="marathi">मराठी</string>
+    <string name="hindi">हिंदी</string>
+    <string name="rupee_sign">₹</string>
+    <string name="percentage">%</string>
+    <string name="vertical_slash">|</string>
+    <!--do not above translate lines-->
+
+
+
+    <string name="msg_error_unable_select_profile_pic">Unable to set profile image. Please try again!</string>
+    <string name="lbl_set_profile_photo">Set profile image</string>
+    <string name="lbl_take_camera_picture">Take a picture</string>
+    <string name="lbl_choose_from_gallery">Choose from gallery</string>
+    <string name="toast_image_intent_null">Image picker option is missing!</string>
+    <string name="share_caption">मैं FarmiGO पर प्रतिदिन आसपास की मंडियों में अपनी फसल के भाव खोजता हूँ, आप भी जुड़ें और जानें अपनी फसल का सही दाम </string>
+
+
+
+    <string-array name="india_states">
+        <item>अंदमान निकोबार बेटे</item>
+        <item>आंध्र प्रदेश</item>
+        <item>अरुणाचल प्रदेश</item>
+        <item>आसाम</item>
+        <item>बिहार</item>
+        <item>चंदीगड</item>
+        <item>छत्तीसगड</item>
+        <item>दादरा आणि नगर हवेली</item>
+        <item>दमण आणि दीव</item>
+        <item>दिल्ली</item>
+        <item>गोवा</item>
+        <item>गुजरात</item>
+        <item>हरियाणा</item>
+        <item>हिमाचल प्रदेश</item>
+        <item>जम्मू-काश्मीर</item>
+        <item>झारखंड</item>
+        <item>कर्नाटक</item>
+        <item>केरळा</item>
+        <item>लक्षद्वीप</item>
+        <item>मध्य प्रदेश</item>
+        <item>महाराष्ट्र</item>
+        <item>मणिपूर</item>
+        <item>मेघालय</item>
+        <item>मिझोरम</item>
+        <item>नागालँड</item>
+        <item>ओरिसा</item>
+        <item>पांडिचेरी</item>
+        <item>पंजाब</item>
+        <item>राजस्थान</item>
+        <item>सिक्किम</item>
+        <item>तामिळनाडू</item>
+        <item>तेलंगणा</item>
+        <item>त्रिपुरा</item>
+        <item>उत्तरांचल</item>
+        <item>उत्तर प्रदेश</item>
+        <item>पश्चिम बंगाल</item>
+    </string-array>
+
+
+    <string name="scrub_empty">Tap and hold the graph to scrub.</string>
+    <string name="scrub_format">Scrubbing value: %1$s</string>
+    <string name="randomize">Randomize</string>
+    <string name="select_animation">Animator:</string>
+    <string name="animation_none">None</string>
+    <string name="animation_line">Line</string>
+    <string name="animation_morph">Morph</string>
+    <string name="fill">Fill</string>
+
+    <string-array name="animations">
+        <item>@string/animation_none</item>
+        <item>@string/animation_line</item>
+        <item>@string/animation_morph</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">नाम</string>
+    <string name="mobile_no">मोबाइल नंबर.</string>
+    <string name="email_id">ईमेल आईडी</string>
+    <string name="email">ईमेल</string>
+    <string name="you_are">आप कौन हैं?</string>
+    <string name="location">स्थान</string>
+    <string name="farmer">किसान</string>
+    <string name="use_your_gps">अपने GPS का उपयोग करें</string>
+    <string name="select_manually"><![CDATA[मैन्युअल रूप से चयन करें >]]></string>
+    <string name="complete">पूर्ण</string>
+    <string name="home">घर</string>
+    <string name="my_crops">मेरी फसलें</string>
+    <string name="mandi_view">मंडी का नजारा</string>
+    <string name="weather">मौसम</string>
+    <string name="news">समाचार</string>
+    <string name="add">जोड़ना</string>
+    <string name="search_crop">फसल की खोज करें</string>
+    <string name="share">शेयर</string>
+    <string name="market_view">बाजार का दृश्य</string>
+    <string name="code">कोड</string>
+    <string name="pincode">पिन कोड</string>
+    <string name="enter_pincode">पिनकोड दर्ज करें</string>
+    <string name="quintal">/ क्विंटल</string>
+    <string name="more">ज़्यादा</string>
+    <string name="remove">हटाना</string>
+    <string name="select_state">राज्य चुनें</string>
+    <string name="select_mandi">मंडी चुनें</string>
+    <string name="_0_min_ago">0 मिनट पहले</string>
+    <string name="degree_celc">°C</string>
+    <string name="temperature">तापमान</string>
+    <string name="humidity">नमी</string>
+    <string name="mm">मिमी</string>
+    <string name="precipitation">तेज़ी</string>
+    <string name="bulletin">बुलेटिन</string>
+    <string name="search_mandi">मंडी को खोजें</string>
+    <string name="my_mandis">मेरी मंडियाँ</string>
+    <string name="you_haven_t_added_any_mandi">आपने किसी भी मंडी को नहीं जोड़ा है</string>
+    <string name="mandis_near_me">मेरे पास की मंडी</string>
+    <string name="filter">फ़िल्टर</string>
+    <string name="no_data_available">कोई डेटा उपलब्ध नहीं है</string>
+
+    <string name="profile">मेरी प्रोफाइल</string>
+    <string name="change_language">भाषा चुनें</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="communicate">संवाद</string>
+    <string name="compare">तुलना</string>
+    <string name="historical_prices">ऐतिहासिक मूल्य</string>
+
+    <string name="fruits">फल</string>
+    <string name="vegitables">सब्जियां</string>
+    <string name="cerels">अनाज</string>
+    <string name="flowers">फूल</string>
+    <string name="mics">mics</string>
+    <string name="spices">मसाले</string>
+    <string name="oilseeds">तिलहन</string>
+
+</resources>

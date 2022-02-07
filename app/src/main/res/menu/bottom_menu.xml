@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@mipmap/home"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_myCrops"
+        android:enabled="true"
+        android:icon="@mipmap/mycrops"
+        android:title="My Crops"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_mandiview"
+        android:enabled="true"
+        android:icon="@mipmap/mandi"
+        android:title="Mandi View"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_news"
+        android:enabled="true"
+        android:icon="@mipmap/news"
+        android:title="News"
+        app:showAsAction="ifRoom" />
+</menu>

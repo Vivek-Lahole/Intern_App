@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#229670</color>
+    <color name="colorPrimaryDark">#006745</color>
+    <color name="colorAccent">#5cc79e</color>
+
+    <color name="black">#3a3a3a</color>
+
+    <color name="black_two">#000000</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="viridian">#229670</color>
+
+    <color name="aqua_green">#0cd493</color>
+    <color name="red">#F44336</color>
+
+    <color name="hamburgerBlack">#000000</color>
+    <color name="InactiveBottomNavIconColor">#909090</color>
+    <color name="ActiveBottomNavBackground">#95b93e</color>
+    <color name="BottomNavBarColor">#ffffff</color>
+
+    <color name="demo_dark_transparent">#24000000</color>
+
+
+</resources>

@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">FarmiGO</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>मराठी</item>
+        <item>हिंदी</item>
+    </string-array>
+    <string-array name="usertype">
+        <item>Farmer</item>
+        <item>Trader</item>
+        <item>Retailer</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="Sign_in">Sign in</string>
+    <string name="Verify">Verify</string>
+    <string name="Mobile_Number">Mobile Number</string>
+    <string name="Get_OTP">Get OTP</string>
+    <string name="OTP_Sent">OTP Sent</string>
+
+    <string name="OTP_Verification">OTP Verification</string>
+    <string name="Enter_the_OTP_sent_to">OTP sent to</string>
+    <string name="Resend_OTP">Resend OTP</string>
+    <string name="Edit_Number">Edit Number</string>
+    <string name="Please_Enter_OTP">Please Enter OTP</string>
+    <string name="Welcome">Welcome</string>
+    <string name="Valid_number_is_required">Valid number is required</string>
+    <string name="title_location_permission">Use location? </string>
+    <string name="text_location_permission">Allow location to fetch nearest APMc markets</string>
+
+
+
+    <string name="OPEN_WEATHER_MAP_API_KEY">1cb26593a6f3b38848ab0a55f39a4f98</string>
+
+    <string name="negative_sign">-</string>
+    <string name="positive_sign">+</string>
+
+    <string name="msg_error_unable_select_profile_pic">Unable to set profile image. Please try again!</string>
+    <string name="lbl_set_profile_photo">Set profile image</string>
+    <string name="lbl_take_camera_picture">Take a picture</string>
+    <string name="lbl_choose_from_gallery">Choose from gallery</string>
+    <string name="toast_image_intent_null">Image picker option is missing!</string>
+
+    <string name="share_caption">Every day I search the prices of my crop in the nearby mandis on the FarmiGO app, you should also join and know the exact price of your crop </string>
+
+
+    <string-array name="india_states">
+        <item>Andaman and Nicobar</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>NCT of Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Pondicherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttrakhand</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+
+
+    <string name="scrub_empty">Tap and hold the graph to scrub.</string>
+    <string name="scrub_format">Scrubbing value: %1$s</string>
+    <string name="randomize">Randomize</string>
+    <string name="select_animation">Animator:</string>
+    <string name="animation_none">None</string>
+    <string name="animation_line">Line</string>
+    <string name="animation_morph">Morph</string>
+    <string name="fill">Fill</string>
+
+    <string-array name="animations">
+        <item>@string/animation_none</item>
+        <item>@string/animation_line</item>
+        <item>@string/animation_morph</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="email_id">Email Id</string>
+    <string name="email">Email</string>
+    <string name="you_are">You are?</string>
+    <string name="location">Location</string>
+    <string name="farmer">Farmer</string>
+    <string name="use_your_gps">Use your GPS</string>
+    <string name="select_manually"><![CDATA[Select Manually >]]></string>
+    <string name="complete">Complete</string>
+    <string name="home">Home</string>
+    <string name="my_crops">My Crops</string>
+    <string name="mandi_view">Mandi View</string>
+    <string name="weather">Weather</string>
+    <string name="news">News</string>
+    <string name="add">Add</string>
+    <string name="search_crop">Search Crop</string>
+    <string name="share">Share</string>
+    <string name="market_view">Market View</string>
+    <string name="code">Code</string>
+    <string name="choose_your_language">Choose Your Language</string>
+    <string name="english">English</string>
+    <string name="marathi">मराठी</string>
+    <string name="hindi">हिंदी</string>
+    <string name="pincode">Pincode</string>
+    <string name="enter_pincode">Enter Pincode</string>
+    <string name="rupee_sign">₹</string>
+    <string name="quintal">/ quintal</string>
+    <string name="vertical_slash">|</string>
+    <string name="more">More</string>
+    <string name="percentage">%</string>
+    <string name="remove">Remove</string>
+    <string name="select_state">Select State</string>
+    <string name="select_mandi">Select Mandi</string>
+    <string name="_0_min_ago">0 min ago</string>
+    <string name="degree_celc">°C</string>
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="mm">mm</string>
+    <string name="precipitation">Precipitation</string>
+    <string name="bulletin">Bulletin</string>
+    <string name="search_mandi">Search Mandi</string>
+    <string name="my_mandis">My Mandis</string>
+    <string name="you_haven_t_added_any_mandi">You haven\'t added any mandi</string>
+    <string name="mandis_near_me">Mandis near me</string>
+    <string name="filter">Filter</string>
+    <string name="no_data_available">No data available</string>
+
+    <string name="profile">My Profile</string>
+    <string name="change_language">Select Language</string>
+    <string name="logout">Logout</string>
+    <string name="communicate">Communicate</string>
+    <string name="compare">Compare</string>
+    <string name="historical_prices">Historical Prices</string>
+
+    <string name="fruits">Fruits</string>
+    <string name="vegitables">Vegitables</string>
+    <string name="cerels">Cerels</string>
+    <string name="flowers">Flowers</string>
+    <string name="mics">Mics</string>
+    <string name="spices">Spices</string>
+    <string name="oilseeds">Oilseeds</string>
+
+
+</resources>
