@@ -1,3 +1,5 @@
-# app_frontend
-Working repo of app's frontend
-App Developed By author @ Vivek Lahole
+# UI for FarmiGO App
+
+<img src="https://github.com/Vivek-Lahole/Intern_App/assets/82323706/29b6d5d5-e174-4d6b-b40d-eb4cb1e393e0" width="200" height="400" />  <img src="https://github.com/Vivek-Lahole/Intern_App/assets/82323706/6f87bbfc-2fb9-44d4-9544-8f312dd155d4" width="200" height="400" />  <img src="https://github.com/Vivek-Lahole/Intern_App/assets/82323706/15c2b346-2409-46c2-a8d7-7f05e0f8c674" width="200" height="400" />  <img src="https://github.com/Vivek-Lahole/Intern_App/assets/82323706/b1da3964-7006-4e45-b51d-833202e689e0" width="200" height="400" />
+<img src="https://github.com/Vivek-Lahole/Intern_App/assets/82323706/6210cda8-f88e-4d01-9d6e-3df50a2159f0" width="200" height="400" />  <img src="https://github.com/Vivek-Lahole/Intern_App/assets/82323706/43de7c45-dc2d-4c1a-be89-ca9c2fcc6365" width="200" height="400" />  <img src="https://github.com/Vivek-Lahole/Intern_App/assets/82323706/d087747c-2565-475b-8a1b-afe080992c0e" width="200" height="400" />  <img src="https://github.com/Vivek-Lahole/Intern_App/assets/82323706/201cacc4-360f-4369-b0bf-ea4ca6075fce" width="200" height="400" />  <img src="https://github.com/Vivek-Lahole/Intern_App/assets/82323706/c4000d8f-55e6-4a99-b306-3ceef0619ede" width="200" height="400" />  <img src="https://github.com/Vivek-Lahole/Intern_App/assets/82323706/2e7fa61a-bfed-4efb-bb44-0475cb362b82" width="200" height="400" />  <img src="https://github.com/Vivek-Lahole/Intern_App/assets/82323706/491736a4-1176-4edf-8dbe-031dd8489400" width="200" height="400" />  <img src="https://github.com/Vivek-Lahole/Intern_App/assets/82323706/069c940b-6d1e-46d5-9ed6-a300250316bb" width="200" height="400" />
+
